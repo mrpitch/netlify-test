@@ -1,0 +1,23 @@
+{
+  "name": "netlify cms test",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "mrpitch",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "npm run build && next export"
+  },
+  "dependencies": {
+    "next": "^12.1.5",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-react": "^7.16.7",
+    "frontmatter-markdown-loader": "^3.7.0"
+  }
+}
